@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #1c1717;
+    background-color: #050202;
     font-family: Helvetica;
 }
 
@@ -14,6 +14,21 @@ body {
     max-width: 1300px;
     margin: 0 auto;
 
+}
+
+.flex {
+    display: flex;
+}
+
+.titulos-perso {
+    margin-top: 150px;
+    color: #ffdddd;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.titulos-perso span {
+    color: #ffa500;
 }
 
 /* NAV */
@@ -47,6 +62,7 @@ header ul {
 header li {
     display: inline-block;
     padding: 0 50px;
+    font-size: 18px;
 }
 
 .btn-contato {
@@ -62,4 +78,98 @@ header li {
 .btn-contato:hover {
     box-shadow: 0px 0px 8px #ffa500;
     transform: scale(1.10);
+}
+
+
+/* PRIMEIRO CONTEUDO */
+.conteudo-principal {
+    padding: 40px 4%;
+
+}
+
+.conteudo-principal,
+.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.conteudo-principal h1 {
+    color: #ffdddd;
+    font-size: 54px;
+    line-height: 45px;
+}
+
+.conteudo-principal h1 span {
+    color: #ffa500;
+}
+
+.conteudo-principal p {
+    color: #ffdddd;
+    margin: 50px 0;
+    font-size: 20px;
+}
+
+.foto-principal {
+    position: relative;
+    animation: animacao-foto 3s ease-in-out infinite alternate;
+}
+
+.foto-principal img {
+    width: 411px;
+}
+
+
+@keyframes animacao-foto {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+.btn-projetos {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffa500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 50px 0px;
+}
+
+.btn-projetos:hover {
+    box-shadow: 0px 0px 8px #ffa500;
+    transform: scale(1.10);
+}
+
+.btn-baixar-cv {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffa500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 50px 0px;
+    margin-left: 35px;
+}
+
+.btn-baixar-cv:hover {
+    box-shadow: 0px 0px 8px #ffa500;
+    transform: scale(1.10);
+}
+
+/* SEGUNDA SECTION */
+.skills {
+    padding: 40px 4%;
+}
+
+.fa-solid {
+    color: #ffdddd;
+    font-size: 90px;
+    margin-top: 100px;
+    margin-left: 80px;
 }
