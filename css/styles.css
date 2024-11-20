@@ -167,9 +167,87 @@ header li {
     padding: 40px 4%;
 }
 
-.fa-solid {
+.skills-box {
     color: #ffdddd;
-    font-size: 90px;
-    margin-top: 100px;
-    margin-left: 80px;
+    border-radius: 20px;
+    padding: 40px;
+    border: 3px;
+    margin-top: 65px;
+    transition: 0.2s;
+}
+
+.skills-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffdddd;
+}
+
+.skills-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.skills-box p {
+    line-height: 20px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.fa-solid {
+    color: #ffa500;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.fa-graduation-cap {
+    color: #ffdddd;
+}
+
+/* SECTION SOBRE */
+.sobre {
+    padding: 90px 4%;
+}
+
+.sobre h2 {
+    font-size: 40px;
+    align-items: first baseline;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.img-sobre img {
+    height: 700px;
+    width: 300px;
+    border-radius: 40px;
+}
+
+.sobre-texto {
+    color: #ffdddd;
+}
+
+.sobre-texto p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.social button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 40px;
+    background-color: #ffa500;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: 0.2s;
+}
+
+.social button:hover {
+    transform: scale(1.20);
+    box-shadow: 0px 0px 8px #ffa500;
+}
+
+.fa-brands {
+    color: #ffdddd;
 }
