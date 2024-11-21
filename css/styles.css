@@ -33,6 +33,11 @@ body {
 
 /* NAV */
 
+#logo img {
+    height: 50px;
+    width: 211px;
+}
+
 header {
     padding: 40px 4%;
 }
@@ -270,6 +275,7 @@ header li {
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    margin-bottom: 70px;
 }
 
 .img-port:hover {
@@ -304,9 +310,41 @@ header li {
 }
 
 #projeto-2 {
-    background-image: url("/img/teste2.webp");
+    background-image: url("/img/Projeto2.png");
 }
 
 #projeto-3 {
     background-image: url("/img/teste3.webp");
+}
+
+/* RODAPE */
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffa60094;
+}
+
+.rodape-cima {
+    justify-content: space-between;
+}
+
+.rodape-baixo {
+    color: #ffa500;
+}
+
+.social button {
+    margin-bottom: 20px;
+
+}
+
+.logo-rodape img {
+    width: 211px;
+    height: 50px;
+}
+
+
+/* TESTE */
+.teste {
+    color: #f4e5e5;
+    font-size: 20px;
+    margin-bottom: 111px;
 }
