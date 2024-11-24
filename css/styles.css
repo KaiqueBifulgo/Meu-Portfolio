@@ -4,6 +4,7 @@
     margin: 0;
     background-color: #050202;
     font-family: Helvetica;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +41,7 @@ body {
 
 header {
     padding: 40px 4%;
+    background-color: #050202;
 }
 
 header >.interface {
@@ -78,38 +80,51 @@ header li {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .btn-contato:hover {
     box-shadow: 0px 0px 8px #ffa500;
-    transform: scale(1.10);
+    transform: scale(1.20);
+}
+
+.btn-contato a {
+    background-color: #ffa500;
+    color: #050202;
+    display: block;
+    text-decoration: none;
+}
+
+.btn-contato a:hover {
+    color: #050202;
+    transform: scale(1.0);
 }
 
 
 /* PRIMEIRO CONTEUDO */
-.conteudo-principal {
+#conteudo-principal {
     padding: 40px 4%;
 
 }
 
-.conteudo-principal,
+#conteudo-principal,
 .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.conteudo-principal h1 {
+#conteudo-principal h1 {
     color: #ffdddd;
     font-size: 54px;
     line-height: 45px;
 }
 
-.conteudo-principal h1 span {
+#conteudo-principal h1 span {
     color: #ffa500;
 }
 
-.conteudo-principal p {
+#conteudo-principal p {
     color: #ffdddd;
     margin: 50px 0;
     font-size: 20px;
@@ -143,11 +158,19 @@ header li {
     border-radius: 30px;
     cursor: pointer;
     margin: 50px 0px;
+    transition: 0.2s;
 }
 
 .btn-projetos:hover {
     box-shadow: 0px 0px 8px #ffa500;
     transform: scale(1.10);
+}
+
+.btn-projetos a {
+    text-decoration: none;
+    background-color: #ffa500;
+    color: #050202;
+    display: block;
 }
 
 .btn-baixar-cv {
@@ -160,6 +183,7 @@ header li {
     cursor: pointer;
     margin: 50px 0px;
     margin-left: 35px;
+    transition: 0.2s;
 }
 
 .btn-baixar-cv:hover {
@@ -168,7 +192,7 @@ header li {
 }
 
 /* SEGUNDA SECTION */
-.skills {
+#skills {
     padding: 40px 4%;
 }
 
@@ -208,11 +232,11 @@ header li {
 }
 
 /* SECTION SOBRE */
-.sobre {
+#sobre {
     padding: 90px 4%;
 }
 
-.sobre h2 {
+#sobre h2 {
     font-size: 40px;
     align-items: first baseline;
     gap: 60px;
@@ -259,7 +283,7 @@ header li {
 }
 
 /* ESTILO DA SECTION PORTFÓLIO */
-.portfolio {
+#portfolio {
     padding: 30px 4%;
     box-shadow: 0 0 40px 10px #ffa60094;
 }
@@ -319,14 +343,20 @@ header li {
 
 /* Redes e contato */
 .table {
-    border: 3px solid #ffa500;
+    border: 3px ridge #ffa500;
     margin-top: 20px;
     margin-bottom: 70px;
     color: #f4e5e5;
     font-size: 20px;
     flex-direction: column;
     text-align: center;
+    border-radius: 20px;
     padding: 10px 10px 10px 10px;
+}
+
+.table a {
+    color: #ffa500;
+    text-decoration: none;
 }
 
 /* RODAPE */
@@ -352,12 +382,4 @@ footer {
     width: 211px;
     height: 50px;
     margin-right: 700px;
-}
-
-
-/* TESTE */
-.teste {
-    color: #f4e5e5;
-    font-size: 20px;
-    margin-bottom: 111px;
 }
