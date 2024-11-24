@@ -314,7 +314,19 @@ header li {
 }
 
 #projeto-3 {
-    background-image: url("/img/teste3.webp");
+    background-image: url("/img/Blog-Game.jpg");
+}
+
+/* Redes e contato */
+.table {
+    border: 3px solid #ffa500;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: #f4e5e5;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
 /* RODAPE */
@@ -323,22 +335,23 @@ footer {
     box-shadow: 0 0 40px 10px #ffa60094;
 }
 
-.rodape-cima {
-    justify-content: space-between;
-}
-
 .rodape-baixo {
     color: #ffa500;
+    border-top: 2px solid #ffa500;
+}
+
+.rodape-baixo p {
+    margin-top: 15px;
 }
 
 .social button {
     margin-bottom: 20px;
-
 }
 
 .logo-rodape img {
     width: 211px;
     height: 50px;
+    margin-right: 700px;
 }
 
 
