@@ -191,6 +191,12 @@ header li {
     transform: scale(1.10);
 }
 
+.btn-baixar-cv a {
+    background-color: #ffa500;
+    color: #050202;
+    text-decoration: none;
+}
+
 /* SEGUNDA SECTION */
 #skills {
     padding: 40px 4%;
@@ -300,6 +306,8 @@ header li {
     border-radius: 40px;
     position: relative;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-port:hover {
@@ -314,6 +322,7 @@ header li {
     height: 100%;
     border-radius: 40%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 600;
@@ -329,16 +338,23 @@ header li {
     border-radius: 0;
 }
 
+.nome-projeto a {
+    margin-top: 11rem;
+    color: #050202;
+    background-color: #d7c6a757;
+    text-decoration: none;
+}
+
 #projeto-1 {
-    background-image: url("/img/teste.webp");
+    background-image: url("/img/Todo-Academia.png");
 }
 
 #projeto-2 {
-    background-image: url("/img/Projeto2.png");
+    background-image: url("/img/Blog-Semantico.png");
 }
 
 #projeto-3 {
-    background-image: url("/img/Blog-Game.jpg");
+    background-image: url("/img/Projeto-Box.png");
 }
 
 /* Redes e contato */
