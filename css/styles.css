@@ -42,6 +42,9 @@ body {
 header {
     padding: 40px 4%;
     background-color: #050202;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
 }
 
 header >.interface {
@@ -103,8 +106,8 @@ header li {
 
 /* PRIMEIRO CONTEUDO */
 #conteudo-principal {
-    padding: 40px 4%;
-
+    padding: 200px 4%;
+    padding-bottom: 100px;
 }
 
 #conteudo-principal,
@@ -199,7 +202,7 @@ header li {
 
 /* SEGUNDA SECTION */
 #skills {
-    padding: 40px 4%;
+    padding: 30px 4%;
 }
 
 .skills-box {
@@ -207,7 +210,7 @@ header li {
     border-radius: 20px;
     padding: 40px;
     border: 3px;
-    margin-top: 65px;
+    margin-top: 50px;
     transition: 0.2s;
 }
 
@@ -272,7 +275,7 @@ header li {
     border: none;
     margin-bottom: 400px;
     font-size: 40px;
-    background-color: #ffa500;
+    background-color: #050202;
     cursor: pointer;
     margin-top: 20px;
     margin-left: 15px;
@@ -305,7 +308,7 @@ header li {
     cursor: pointer;
     border-radius: 40px;
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -338,11 +341,12 @@ header li {
     border-radius: 0;
 }
 
-.nome-projeto a {
-    margin-top: 11rem;
-    color: #050202;
-    background-color: #d7c6a757;
-    text-decoration: none;
+.links-projetos {
+    color: #f4e5e5;
+    padding-left: 150px;
+    padding-right: 161px;
+    font-size: 18px;
+    text-decoration: double;
 }
 
 #projeto-1 {
@@ -355,6 +359,18 @@ header li {
 
 #projeto-3 {
     background-image: url("/img/Projeto-Box.png");
+}
+
+#projeto-4 {
+    background-image: url("/img/Blog-Pets.png");
+}
+
+#projeto-5 {
+    background-image: url("/img/Gerador-de-senha.png");
+}
+
+#projeto-6 {
+    background-image: url("/img/Gerador-qr-code.png");
 }
 
 /* Redes e contato */
