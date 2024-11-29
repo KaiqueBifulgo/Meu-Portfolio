@@ -75,7 +75,7 @@ header li {
     font-size: 18px;
 }
 
-.btn-contato {
+.btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -86,12 +86,12 @@ header li {
     transition: 0.2s;
 }
 
-.btn-contato:hover {
+.btn-contato button:hover {
     box-shadow: 0px 0px 8px #ffa500;
-    transform: scale(1.20);
+    transform: scale(0.8);
 }
 
-.btn-contato a {
+.btn-contato button {
     background-color: #ffa500;
     color: #050202;
     display: block;
@@ -152,49 +152,46 @@ header li {
     }
 }
 
-.btn-projetos {
+.btn-projetos button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ffa500;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     margin: 50px 0px;
     transition: 0.2s;
+    margin-right: 30px
 }
 
-.btn-projetos:hover {
+.btn-projetos button:hover {
     box-shadow: 0px 0px 8px #ffa500;
     transform: scale(1.10);
 }
 
-.btn-projetos a {
+.btn-projetos button {
     text-decoration: none;
     background-color: #ffa500;
     color: #050202;
-    display: block;
 }
 
-.btn-baixar-cv {
+.btn-baixar-cv button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ffa500;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     margin: 50px 0px;
-    margin-left: 35px;
     transition: 0.2s;
 }
 
-.btn-baixar-cv:hover {
+.btn-baixar-cv button:hover {
     box-shadow: 0px 0px 8px #ffa500;
     transform: scale(1.10);
 }
 
-.btn-baixar-cv a {
+.btn-baixar-cv button {
     background-color: #ffa500;
     color: #050202;
     text-decoration: none;
