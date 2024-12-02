@@ -110,7 +110,7 @@ header li {
     padding-bottom: 100px;
 }
 
-#conteudo-principal,
+#conteudo-principal
 .flex {
     align-items: center;
     justify-content: center;
@@ -346,6 +346,7 @@ header li {
     text-decoration: double;
 }
 
+
 #projeto-1 {
     background-image: url("/img/Todo-Academia.png");
 }
@@ -411,4 +412,188 @@ footer {
     width: 211px;
     height: 50px;
     margin-right: 700px;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 1050px) {
+    /* GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    #conteudo-principal .flex {
+        flex-direction: column-reverse;
+    }
+    
+    /* NAV */
+    .menu, .btn-contato {
+        display: none;
+    }
+
+    #logo img {
+    padding-left: 60px;
+    }
+
+    #logo img:hover {
+        transform: scale(0.7);
+    }
+
+    /* TOPO */
+    #conteudo-principal {
+        padding: 20px 7%;
+    }
+
+    #conteudo-principal h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    #conteudo-principal .flex {
+        gap: 40px;
+    }
+
+    .foto-principal img {
+        width: 90%;
+        margin-top: 114px;
+        margin-left: 13px;
+    }
+
+    #conteudo-principal p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .btn-projetos button {
+        display: none;  
+    }
+
+    .btn-baixar-cv button{
+        padding: 5px 30px;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 5px 0px;
+    }
+
+    /* DIFERENCIAIS */
+    #skills {
+        padding: 40px 8%;
+    }
+
+    #skills h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .skills-box {
+        margin-top: 40px;
+    }
+
+    .skills-box h3 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .titulos-perso {
+        margin-top: 50px;
+    }
+
+    .skills-box:hover {
+        transform: scale(1.0);
+    }
+
+    .skills-box p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .fa-solid {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    /* SOBRE */
+    .img-sobre img {
+        height: 470px;
+        width: 280px;
+        margin-left: 25px;
+    }
+
+    #sobre h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .sobre-texto p {
+        padding: 10px 8%;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .social {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /* PORTFOLIO */
+    #portfolio {
+     padding: 40px 8%;
+    }
+
+    #portfolio h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    #portfolio .flex {
+        gap: 60px;
+    }
+
+
+    /*  CONTAS E REDES */
+    #contatos {
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    #contatos h2 {
+        font-size:18px;
+        margin-bottom: 20px;
+    }
+    
+    .table {
+        margin-top: 30px;
+        font-size: 14.5px;
+    }
+
+
+    /* RODAPE */
+    footer {
+        padding: 50px 8%;
+    }
+
+    .social button {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .logo-rodape img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .rodape-baixo p {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
 }
