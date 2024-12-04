@@ -32,6 +32,14 @@ body {
     color: #ffa500;
 }
 
+#btn-abrir-menu {
+    display: none;
+}
+
+#nav-mobile {
+    display: none;
+}
+
 /* NAV */
 
 #logo img {
@@ -249,8 +257,12 @@ header li {
     margin-bottom: 40px;
 }
 
+#sobre .flex {
+    gap: 70px;
+}
+
 .img-sobre img {
-    height: 700px;
+    height: 580px;
     width: 300px;
     border-radius: 40px;
 }
@@ -310,6 +322,10 @@ header li {
     flex-direction: column;
 }
 
+#portfolio .flex{
+    justify-content: space-around;
+}
+
 .img-port:hover {
     background-position: 100% 100%;
 }
@@ -348,7 +364,7 @@ header li {
 
 
 #projeto-1 {
-    background-image: url("/img/Todo-Academia.png");
+    background-image: url("/img/Projeto-academia.png");
 }
 
 #projeto-2 {
@@ -427,17 +443,76 @@ footer {
     }
     
     /* NAV */
+    header {
+        padding: 20px 4%;
+    }   
+
     .menu, .btn-contato {
         display: none;
-    }
-
-    #logo img {
-    padding-left: 60px;
     }
 
     #logo img:hover {
         transform: scale(0.7);
     }
+
+    /* NAV MOBILE */
+    .abrir-menu i{
+        color: #ffa500;
+        font-size: 35px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+
+    #nav-mobile {
+        color: #f4e5e5;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 800;
+        width: 0%;
+        overflow: hidden;
+        transition: 0.4s;
+        display: block;
+    }
+
+    #nav-mobile.menu-aberto {
+        width: 60%;
+    }
+
+    #nav-mobile ul {
+        text-align: right;
+    }
+
+    #nav-mobile li {
+        padding-right: 10px;
+    }
+
+    #nav-mobile li a {
+        font-size: 18px;
+        padding: 30px 4%;
+        transition: 0.3;
+    }
+
+    #nav-mobile li a:hover {
+        transform: none;
+    }
+
+    #btn-abrir-menu {
+        display: block;
+    }
+
+    .btn-fechar {
+        padding: 20px 5%;
+    }
+
+    .btn-fechar i {
+        color: #ffa500;
+        font-size: 30px;
+    }
+
+
+    /* FIM DA NAV MOBILE */
 
     /* TOPO */
     #conteudo-principal {
@@ -516,13 +591,13 @@ footer {
     .img-sobre img {
         height: 470px;
         width: 280px;
-        margin-left: 25px;
+        margin-left: 40px;
     }
 
     #sobre h2 {
         font-size: 30px;
         text-align: center;
-        margin-top: 45px;
+        margin-top: 30px;
     }
 
     .sobre-texto p {
@@ -553,9 +628,19 @@ footer {
     }
 
     #portfolio .flex {
-        gap: 60px;
+        gap: 50px;
     }
-
+    
+    .links-projetos {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #3c8ce8;
+    }
 
     /*  CONTAS E REDES */
     #contatos {
