@@ -355,9 +355,10 @@ header li {
 }
 
 .links-projetos {
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 80px;
     color: #f4e5e5;
-    padding-left: 150px;
-    padding-right: 161px;
     font-size: 18px;
     text-decoration: double;
 }
