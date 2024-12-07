@@ -14,7 +14,6 @@ body {
 .interface {
     max-width: 1300px;
     margin: 0 auto;
-
 }
 
 .flex {
@@ -433,10 +432,30 @@ footer {
 
 /* RESPONSIVO */
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
     /* GERAIS */
+    * {
+        max-width: 100%;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    .interface {
+        max-width: 100%;
+        margin-right: 100px;
+        justify-content: none;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .flex {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     #conteudo-principal .flex {
@@ -452,6 +471,10 @@ footer {
         display: none;
     }
 
+    #logo img {
+        width: 150px;
+    }
+
     #logo img:hover {
         transform: scale(0.7);
     }
@@ -460,7 +483,6 @@ footer {
     .abrir-menu i{
         color: #ffa500;
         font-size: 35px;
-        padding-right: 40px;
         margin-top: 20px;
     }
 
@@ -470,11 +492,12 @@ footer {
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 800;
         width: 0%;
         overflow: hidden;
         transition: 0.4s;
         display: block;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     #nav-mobile.menu-aberto {
