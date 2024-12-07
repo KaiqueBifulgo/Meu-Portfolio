@@ -364,27 +364,27 @@ header li {
 
 
 #projeto-1 {
-    background-image: url("/img/Projeto-academia.png");
+    background-image: url("./img/Projeto-academia.png");
 }
 
 #projeto-2 {
-    background-image: url("/img/Blog-Semantico.png");
+    background-image: url("./img/Blog-Semantico.png");
 }
 
 #projeto-3 {
-    background-image: url("/img/Projeto-Box.png");
+    background-image: url("./img/Projeto-Box.png");
 }
 
 #projeto-4 {
-    background-image: url("/img/Blog-Pets.png");
+    background-image: url("./img/Blog-Pets.png");
 }
 
 #projeto-5 {
-    background-image: url("/img/Gerador-de-senha.png");
+    background-image: url("./img/Gerador-de-senha.png");
 }
 
 #projeto-6 {
-    background-image: url("/img/Gerador-qr-code.png");
+    background-image: url("./img/Gerador-qr-code.png");
 }
 
 /* Redes e contato */
