@@ -362,31 +362,6 @@ header li {
     text-decoration: double;
 }
 
-
-#projeto-1 {
-    background-image: url("/img/Projeto-academia.png");
-}
-
-#projeto-2 {
-    background-image: url("/img/Blog-Semantico.png");
-}
-
-#projeto-3 {
-    background-image: url("/img/Projeto-Box.png");
-}
-
-#projeto-4 {
-    background-image: url("/img/Blog-Pets.png");
-}
-
-#projeto-5 {
-    background-image: url("/img/Gerador-de-senha.png");
-}
-
-#projeto-6 {
-    background-image: url("/img/Gerador-qr-code.png");
-}
-
 /* Redes e contato */
 .table {
     border: 3px ridge #ffa500;
