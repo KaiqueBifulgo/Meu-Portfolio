@@ -413,13 +413,19 @@ footer {
         max-width: 100%;
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     header {
+        padding-top: 5px;
         max-width: 100%;
+        overflow-x: hidden;
     }
 
     .interface {
+        padding-top: 5px;
         max-width: 100%;
-        margin-right: 100px;
         justify-content: none;
     }
 
@@ -438,16 +444,12 @@ footer {
     }
     
     /* NAV */
-    header {
-        padding: 20px 4%;
-    }   
-
     .menu, .btn-contato {
         display: none;
     }
 
     #logo img {
-        width: 150px;
+        width: 160px;
     }
 
     #logo img:hover {
@@ -459,6 +461,7 @@ footer {
         color: #ffa500;
         font-size: 35px;
         margin-top: 20px;
+        padding-right: 2.5rem;
     }
 
     #nav-mobile {
@@ -476,7 +479,8 @@ footer {
     }
 
     #nav-mobile.menu-aberto {
-        width: 60%;
+        width: 57%;
+        overflow-x: hidden;
     }
 
     #nav-mobile ul {
@@ -508,6 +512,7 @@ footer {
     .btn-fechar i {
         color: #ffa500;
         font-size: 30px;
+        margin-top: 20px;
     }
 
 
@@ -519,8 +524,8 @@ footer {
     }
 
     #conteudo-principal h1 {
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     #conteudo-principal .flex {
@@ -528,7 +533,7 @@ footer {
     }
 
     .foto-principal img {
-        width: 90%;
+        width: 100%;
         margin-top: 114px;
         margin-left: 13px;
     }
