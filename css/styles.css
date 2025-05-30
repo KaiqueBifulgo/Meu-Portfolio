@@ -260,7 +260,7 @@ header li {
 }
 
 .img-sobre img {
-    height: 580px;
+    height: 510px;
     width: 300px;
     border-radius: 40px;
 }
@@ -593,9 +593,7 @@ footer {
 
     /* SOBRE */
     .img-sobre img {
-        height: 470px;
-        width: 280px;
-        margin-left: 40px;
+        display: none;
     }
 
     #sobre h2 {
