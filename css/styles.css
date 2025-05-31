@@ -299,68 +299,81 @@ header li {
 }
 
 /* ESTILO DA SECTION PORTFÓLIO */
+
+#portfolio h2 {
+    margin-bottom: 5rem;
+}
+
 #portfolio {
-    padding: 30px 4%;
+    padding: 50px 4%;
     box-shadow: 0 0 40px 10px #ffa60094;
-}
-
-.img-port {
-    margin-top: 60px;
-    width: 360px;
-    height: 460px;
-    background-color: #ffa500;
-    background-size: cover;
-    background-position: 100% 0%;
-    transition: 7s;
-    cursor: pointer;
-    border-radius: 40px;
-    position: relative;
-    margin-bottom: 20px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 colunas no desktop, 1 no mobile */
+    gap: 40px;
+  }
+  
+  /* Estilo individual dos cards */
+  .projeto-card {
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.2);
+    transition: transform 0.3s ease;
+    color: #ffdddd;
     display: flex;
     flex-direction: column;
-}
-
-#portfolio .flex{
-    justify-content: space-around;
-}
-
-.img-port:hover {
-    background-position: 100% 100%;
-}
-
-.nome-projeto {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    border-radius: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 25px;
+    min-height: 100%;
+  }
+  
+  .projeto-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .projeto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .projeto-info {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .projeto-info a {
+    margin-top: auto;
+  }
+  
+  .projeto-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffa500;
+  }
+  
+  .projeto-info p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  
+  .projeto-info a {
+    text-decoration: none;
     color: #050202;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.nome-projeto:hover {
-    opacity: 1;
-    background-color: #d7c6a757;
-    border-radius: 0;
-}
-
-.links-projetos {
-    justify-content: space-around;
-    padding-left: 120px;
-    padding-right: 80px;
-    color: #f4e5e5;
-    font-size: 18px;
-    text-decoration: double;
-}
-
+    background-color: #ffa500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .projeto-info a:hover {
+    background-color: #ffbb33;
+    box-shadow: 0 0 10px #ffa500;
+  }
 /* Redes e contato */
 .table {
     border: 3px ridge #ffa500;
