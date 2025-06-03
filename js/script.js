@@ -17,6 +17,7 @@ btnFecharMenu.addEventListener("click", fecharMenu);
 
 
 
+
 // FECHAR O MENU AO CLICAR EM UM LINK
 navMobile.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", fecharMenu)

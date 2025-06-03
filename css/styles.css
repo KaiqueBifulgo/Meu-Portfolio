@@ -37,6 +37,7 @@ body {
 
 #nav-mobile {
     display: none;
+    Transition: width 0,4s escape;
 }
 
 /* NAV */
@@ -368,6 +369,7 @@ header li {
     border-radius: 30px;
     font-weight: bold;
     transition: 0.3s;
+    margin-left: 1rem;
   }
   
   .projeto-info a:hover {
