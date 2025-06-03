@@ -376,6 +376,17 @@ header li {
     background-color: #ffbb33;
     box-shadow: 0 0 10px #ffa500;
   }
+
+
+  .projeto-info .btn-ver_codigo {
+    background-color: #f4e5e5;
+}
+
+ .projeto-info .btn-ver_codigo:hover {
+    background-color: #f4e5e5;
+    box-shadow: 0 0 10px #f4e5e5;
+}
+
 /* Redes e contato */
 .table {
     border: 3px ridge #ffa500;
@@ -597,8 +608,8 @@ footer {
     }
 
     .skills-box p {
-        line-height: 20px;
-        font-size: 12px;
+        line-height: 19px;
+        font-size: 16px;
     }
 
     .fa-solid {
@@ -620,7 +631,7 @@ footer {
     .sobre-texto p {
         padding: 10px 8%;
         text-align: justify;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .social {
@@ -657,6 +668,10 @@ footer {
         padding-top: 20px;
         padding-bottom: 20px;
         color: #3c8ce8;
+    }
+
+    .btn-ver_codigo {
+        display: none;
     }
 
     /*  CONTAS E REDES */
