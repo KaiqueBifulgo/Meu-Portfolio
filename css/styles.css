@@ -2,12 +2,12 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #050202;
     font-family: Helvetica;
     scroll-behavior: smooth;
 }
 
 body {
+    background-color: #050202;
     height: 100vh;
 }
 
@@ -37,7 +37,7 @@ body {
 
 #nav-mobile {
     display: none;
-    Transition: width 0,4s escape;
+    transition: width 0.4s ease;
 }
 
 /* NAV */
@@ -231,7 +231,7 @@ header li {
 .skills-box p {
     line-height: 20px;
     font-size: 17px;
-    text-align: justify;
+    text-align: left;
 }
 
 .fa-solid {
@@ -272,7 +272,7 @@ header li {
 
 .sobre-texto p {
     margin: 20px 0;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
 }
 
@@ -281,12 +281,13 @@ header li {
     height: 70px;
     border-radius: 50%;
     border: none;
+    background-color: #050202;
     margin-bottom: 400px;
     font-size: 40px;
     background-color: #050202;
     cursor: pointer;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
     transition: 0.2s;
 }
 
@@ -295,8 +296,9 @@ header li {
     box-shadow: 0px 0px 8px #ffa500;
 }
 
-.fa-brands {
+.fa-brands, .fa-github, .fa-linkedin, a, i {
     color: #ffdddd;
+    text-decoration: none;
 }
 
 /* ESTILO DA SECTION PORTFÓLIO */
@@ -358,7 +360,7 @@ header li {
   .projeto-info p {
     font-size: 15px;
     margin-bottom: 40px;
-    text-align: justify;
+    text-align: left;
   }
   
   .projeto-info a {
@@ -492,6 +494,7 @@ footer {
 
     #nav-mobile {
         color: #f4e5e5;
+        background-color: #050202;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -561,11 +564,9 @@ footer {
     .foto-principal img {
         width: 100%;
         margin-top: 114px;
-        margin-left: 13px;
     }
 
     #conteudo-principal p {
-        text-align: justify;
         font-size: 16px;
     }
 
@@ -630,7 +631,7 @@ footer {
 
     .sobre-texto p {
         padding: 10px 8%;
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
     }
 
